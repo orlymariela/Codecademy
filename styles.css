@@ -51,9 +51,7 @@ li{
     margin-top: 30px;
 }
 .img-home{
-    width: 300px;
-    height: 300px;
-    margin-left: -100px;
+    margin-left: -130px;
     padding-top: 20px;
 }
 .img-home img{
@@ -64,6 +62,7 @@ li{
 }
 .name-home{
    text-align: left;
+   margin-left: 10px;
 }
 h1{
     font-size: 70px;
@@ -78,7 +77,7 @@ h3{
     margin: 0;
 }
 .introduction-home{
-    margin-top: -30px;
+    margin-top: 20px;
 }
 .more{
     width: 150px;
@@ -176,4 +175,65 @@ h2{
 #contact a{
     color: #F2910A;
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 680px) {
+    body{
+        margin: 0;
+    }
+    h1{
+        font-size: 37px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .img-home{
+        width: 100px;
+        height: 100px;
+        margin-left: -15px;
+        padding-right: 30px;
+    }
+    .img-home img{
+        width: 180px;
+        height: 180px;
+        border-radius: 100%;
+        border: 2px solid #F2910A;
+
+    }
+    .name-home{
+        text-align: left;
+        margin-left:  60px;
+        padding-top: 30px;
+    
+     }
+     .introduction-home{
+        margin-top: 60px;
+    }
+    #about{
+        padding: 28px;
+    }
+    .grid-skills{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: auto;
+        gap: 30px;
+        padding-left: 40px;
+    }
+    .grid-work{
+        display: grid;
+        grid-template-columns: repeat(1, 460px);
+        grid-template-rows: auto;
+        gap: 20px;
+        padding-left: 29px;
+    }
+    .form-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 0;
+    }
+    
 }
