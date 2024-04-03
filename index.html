@@ -18,13 +18,13 @@
             <div class="logo">
             </div>
             <div>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Project</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
-                </ul>
+                <ul id="navbar">
+                    <li><button data-seccion="#home">Home</button></li>
+                    <li><button data-seccion="#about">About</button></li>
+                    <li><button data-seccion="#skills">Skills</button></li>
+                    <li><button data-seccion="#work">Work</button></li>
+                    <li><button data-seccion="#contact">Contact</button></li>
+                </ul>                
             </div>
         </nav>
     </header>
@@ -34,7 +34,7 @@
                 <img src="./assets/selfie.jpg" alt="selfie">
             </div>
             <div class="name-home">
-                <br />
+                <br /><br/>
                 <span>Hey, my name is</span>
                 <h1>Orly Santiago</h1>
                 <h3>Front-end Engineer</h3>
@@ -44,7 +44,7 @@
             <p>A passionate front-end engineer with a deep love for creating amazing and functional web experiences,
                 combining visual aesthetics with seamless functionality to deliver digital products that captivate
                 users.</p>
-            <button class="more">View more</button>
+            <button id="btnScroll" class="more">View more</button>
         </div>
     </section>
     <section id="about">
@@ -134,7 +134,7 @@
        
     </section>
 
-
+    <script src="index.js"></script>
 
 </body>
 

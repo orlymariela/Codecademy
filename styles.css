@@ -14,6 +14,18 @@ nav{
     align-items: center;
     height: 60px;
 }
+#navbar button{
+    background-color: #27272a;
+    border: none;
+    color: rgb(109, 109, 108);
+    font-size: medium;
+    
+}
+#navbar button:hover{
+    color: #F2910A;
+    box-shadow: 5px 5px 5px #202022;
+
+}
 
 ul{
     display: flex;
@@ -26,10 +38,6 @@ li{
     margin: 10px;
     margin-top: 0;
 }
-li:hover{
-    color: #F2910A;
-    cursor: pointer;
-}
 #home{
     display: flex;
     flex-direction: column;
@@ -40,12 +48,13 @@ li:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;   
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .img-home{
     width: 300px;
     height: 300px;
     margin-left: -100px;
+    padding-top: 20px;
 }
 .img-home img{
     width: 200px;
@@ -68,6 +77,9 @@ h3{
     color: #F2910A;
     margin: 0;
 }
+.introduction-home{
+    margin-top: -30px;
+}
 .more{
     width: 150px;
     height: 30px;
@@ -75,10 +87,17 @@ h3{
     color: white;
     border: 1px solid white;
 }
+.more:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #202022;
+}
 h2{
     color: white;
     text-decoration: underline;
     text-align: center;
+}
+#about{
+    padding-top: 20px;
 }
 .content-about{
     display: flex;
@@ -128,6 +147,7 @@ h2{
     height: 250px;
 }
 #contact{
+    padding-top: 20px;
     text-align: center;
 }
 .card-work p{
