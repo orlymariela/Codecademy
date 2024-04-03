@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Blog Personal</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            </div>
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Project</li>
+                    <li>Skills</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="info-home">
+            <div class="img-home">
+                <img src="./assets/selfie.jpg" alt="selfie">
+            </div>
+            <div class="name-home">
+                <br />
+                <span>Hey, my name is</span>
+                <h1>Orly Santiago</h1>
+                <h3>Front-end Engineer</h3>
+            </div>
+        </div>
+        <div class="introduction-home">
+            <p>A passionate front-end engineer with a deep love for creating amazing and functional web experiences,
+                combining visual aesthetics with seamless functionality to deliver digital products that captivate
+                users.</p>
+            <button class="more">View more</button>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About</h2>
+        <div class="content-about">
+            <div>
+                <p class="p-about">Nice to meet you. Please take a look around.</p>
+            </div>
+            <div>
+                <p>Enthusiastic and passionate about creating exceptional web experiences, I transform
+                    designs into captivating and responsive interfaces. I forged solid skills as a Front-End Developer,
+                    translating creative concepts into functional prototypes with a balance between functionality and
+                    aesthetics. My goal is to exceed expectations, creating attractive, usable and accessible solutions.
+                    I constantly seek to learn new technologies and trends in front-end development, facing unique
+                    challenges in each project to expand my knowledge and overcome obstacles in an innovative way.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="grid-skills">
+        <div class="card-skills">
+            <img class="img-skills" src="./assets/html.png" alt="html">
+            <p>HTML</p>
+        </div>
+        <div class="card-skills">
+            <img class="img-skills" src="./assets/css.png" alt="css">
+            <p>CSS</p>
+        </div>
+        <div class="card-skills">
+            <img class="img-skills" src="./assets/javascript.png" alt="JS">
+            <p>JAVSCRIPT</p>
+        </div>
+        <div class="card-skills">
+            <img class="img-skills" src="./assets/react.png" alt="REACT">
+            <p>REACT</p>
+        </div>
+        <div class="card-skills">
+            <img class="img-skills" src="./assets/node.png" alt="NODE">
+            <p>NODE</p>
+        </div>
+       
+        <div class="card-skills">
+            <img class="img-skills" src="./assets/mongo.png" alt="mongo">
+            <p>MONGO</p>
+        </div>
+    </div>
+
+    </section>
+    <section id="work">
+        <h2>Work</h2>
+        <div class="grid-work">
+            <div class="card-work">
+                <img class="img-work" src="./assets/mytinerary.jpg" alt="mytinerary">
+                <p>My Tineray</p>
+                <span>React Js Application</span>
+            </div>
+            <div class="card-work">
+                <img class="img-work" src="./assets/petshop.JPG" alt="petshop">
+                <p>Petshop</p>
+                <span>Js App Web</span>
+            </div>
+            <div class="card-work">
+                <img class="img-work" src="./assets/cybertruck.avif" alt="tesla">
+                <p>Tesla Electrics Cars</p>
+                <span>Design Landing Page</span>
+            </div>
+            <div class="card-work">
+                <img class="img-work" src="https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bcae-07a3f8dc141a/f6d7434e-d6de-4185-a6d4-c77a2d08737b/US-en-20220502-popsignuptwoweeks-perspective_alpha_website_medium.jpg" alt="netflix">
+                <p>Netflix</p>
+                <span>React Application Web</span>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Submit the form below or send me an email: <a href="mailto:orly.frontdeveloper@gmail.com">orly.frontdeveloper@gmail.com</a></p>
+        <div >
+            <form method='POST' action='https://getform.io/f/f6401556-6fe5-4e07-ad5b-bc049237aeb4' class="form-contact">
+                <input className='bg-[#dadadd] p-2  text-black' type='text' placeholder='Name' name='name' />
+                <input className='my-4 p-2 bg-[#dadadd]  text-black' type="email" placeholder='Email' name='email' />
+                <textarea className='bg-[#dadadd] p-2 g text-black' name="message" rows="10" placeholder='Message'></textarea>
+              </form>    
+              <button class="collaborate"> Let's Collaborate</button>        
+
+        </div>
+       
+    </section>
+
+
+
+</body>
+
+</html>

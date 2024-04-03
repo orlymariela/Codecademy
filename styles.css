@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    color: rgb(109, 109, 108);
+    font-family: "Montserrat", sans-serif;
+    background-color: #27272a;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 2px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    padding: 7px;
+    margin: 10px;
+    margin-top: 0;
+}
+li:hover{
+    color: #F2910A;
+    cursor: pointer;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 480px;
+}
+.info-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    margin-top: 20px;
+}
+.img-home{
+    width: 300px;
+    height: 300px;
+    margin-left: -100px;
+}
+.img-home img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid #F2910A;
+}
+.name-home{
+   text-align: left;
+}
+h1{
+    font-size: 70px;
+    font-weight:400;
+    color: #FFFFFF;
+    margin: 0;
+}
+h3{
+    font-size: 50px;
+    font-weight: 300;
+    color: #F2910A;
+    margin: 0;
+}
+.more{
+    width: 150px;
+    height: 30px;
+    background-color: #27272a;
+    color: white;
+    border: 1px solid white;
+}
+h2{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+.content-about{
+    display: flex;
+    flex-direction: column;
+}
+.p-about{
+    color: #F2910A;
+}
+#skills{
+    padding-top: 30px;
+}
+.grid-skills{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.card-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 5px 5px 5px #202022;
+}
+.img-skills{
+    width: 80px;
+    height: 80px;
+}
+#work{
+    padding-top: 30px;
+}
+.grid-work{
+    display: grid;
+    grid-template-columns: repeat(2, 460px);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.card-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.img-work{
+    width: 390px;
+    height: 250px;
+}
+#contact{
+    text-align: center;
+}
+.card-work p{
+    color: #F2910A;
+    font-weight: bolder;
+}
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0;
+}
+.form-contact input{
+    height: 40px;
+}
+.collaborate{
+    width: 150px;
+    height: 30px;
+    background-color: #27272a;
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+#contact a{
+    color: #F2910A;
+    text-decoration: none;
+}
